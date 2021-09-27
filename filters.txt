@@ -1,0 +1,76 @@
+! https://www.google.com
+www.google.*##^script:has-text(consentCookiePayload)
+
+!YouTube android
+m.youtube.com##.dialog-body
+m.youtube.com##.dialog-container
+m.youtube.com##.consent-bump-lightbox
+m.youtube.com##.upsell-dialog-lightbox
+m.youtube.com##.mandatory-consent-kickin.dialog
+m.youtube.com##body[modal-open-body]:style(position: static !important;)
+m.youtube.com##.consent-bump-v2-lightbox
+
+!YouTube pc
+youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
+youtube.com##+js(set, ytInitialData.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer.forceConsent, false)
+youtube.com##+js(json-prune, [].playerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer)
+youtube.com##+js(json-prune, [].response.topbar.desktopTopbarRenderer.interstitial.consentBumpRenderer)
+youtube.com###interstitial > .ytd-masthead.style-scope
+youtube.com##.ytd-consent-bump-lightbox
+youtube.com##.opened
+youtube.com###dialog
+||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! https://www.aliexpress.com
+aliexpress.com##._3KrBP
+aliexpress.com##.drogue-poplayer-modal
+
+! https://es.gizmodo.com
+||sourcepoint.gizmodo.com/index.html?message_id=*&consentUUID=*preload_message=true$subdocument
+
+! https://101lugaresincreibles.com
+101lugaresincreibles.com##.moove-gdpr-info-bar-container
+
+! https://www.espinof.com
+www.espinof.com##.related-leaving-item
+
+! https://www.elladodelmal.com
+www.elladodelmal.com##.singleton-element.cookie-choices-info
+
+! https://ubuntu.com
+ubuntu.com##.cookie-policy
+
+! https://www.reddit.com
+www.reddit.com##.m-animated.XPromoBlockingModal__content
+www.reddit.com##.m-animated.XPromoBlockingModal__overlay
+www.reddit.com##shreddit-experience-tree
+
+! https://mobile.twitter.com
+mobile.twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
+mobile.twitter.com##div.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo4.css-1dbjc4n > div.r-12vffkv.css-1dbjc4n > .r-12vffkv.css-1dbjc4n > .css-1dbjc4n
+
+!  https://www.meneame.net
+www.meneame.net##.top-advise-info.row
+
+! block didomi consent
+!!*##^script:has-text(spcloader)
+*###didomi-host
+*##body:style(overflow: auto !important;)
+support.google.com#@#body:style(overflow: auto !important;)
+
+! 2021-09-27 https://www.morningstar.es
+www.morningstar.es###additionalInfoe
+
+! 2021-09-27 https://www.cabroworld.com
+@@||p.brid.tv/player/build/plugins/googleanalytics/1.0.0/brid.googleanalytics.min.js$script,domain=www.cabroworld.com
+
+! 2021-09-27 https://consent.google.com
+consent.google.com##.Qhg5gf
+
+! 2021-09-27 https://lifehacker.com
+lifehacker.com###sp_message_container_388535
+
+
