@@ -1,5 +1,9 @@
 ! https://www.google.com
 www.google.*##^script:has-text(consentCookiePayload)
+! support.google.com
+support.google.com#@#body:style(overflow: auto !important;)
+! 2021-09-27 https://consent.google.com
+consent.google.com##.Qhg5gf
 
 !YouTube android
 m.youtube.com##.dialog-body
@@ -22,11 +26,15 @@ youtube.com##.opened
 youtube.com###dialog
 ||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image 
 
+! inoreader
+@@||inoreader.com^$document
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! https://www.aliexpress.com
 aliexpress.com##._3KrBP
 aliexpress.com##.drogue-poplayer-modal
+aliexpress.com##.coupon-poplayer-modal
+
 
 ! https://es.gizmodo.com
 ||sourcepoint.gizmodo.com/index.html?message_id=*&consentUUID=*preload_message=true$subdocument
@@ -55,11 +63,8 @@ mobile.twitter.com##div.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo
 !  https://www.meneame.net
 www.meneame.net##.top-advise-info.row
 
-! block didomi consent
 !!*##^script:has-text(spcloader)
-*###didomi-host
-*##body:style(overflow: auto !important;)
-support.google.com#@#body:style(overflow: auto !important;)
+##body:style(overflow: auto !important;)
 
 ! 2021-09-27 https://www.morningstar.es
 www.morningstar.es###additionalInfoe
@@ -67,10 +72,62 @@ www.morningstar.es###additionalInfoe
 ! 2021-09-27 https://www.cabroworld.com
 @@||p.brid.tv/player/build/plugins/googleanalytics/1.0.0/brid.googleanalytics.min.js$script,domain=www.cabroworld.com
 
-! 2021-09-27 https://consent.google.com
-consent.google.com##.Qhg5gf
-
 ! 2021-09-27 https://lifehacker.com
 lifehacker.com###sp_message_container_388535
 
+! didomi
+elpais.com,cadenaser.com###didomi-host
+cadenaser.com###didomi-host
+motorpasionmoto.com###didomi-host
+elconfidencial.com###didomi-host
+lavanguardia.com###didomi-host
 
+! acceptationCMPWall
+elpais.com,cadenaser.com###acceptationCMPWall
+cadenaser.com###acceptationCMPWall
+
+cadenaser.com##body:style(overflow: auto !important;)
+motorpasionmoto.com##body:style(overflow: auto !important;)
+lavanguardia.com##body:style(overflow: auto !important;)
+
+!||privacy-center.org^$3p
+
+! 2021-09-28 https://doodle.com
+doodle.com###onetrust-consent-sdk
+
+! 2021-09-28 https://marketplace.visualstudio.com
+marketplace.visualstudio.com###cookie-banner
+
+! 2021-09-28 https://www.linkedin.com
+linkedin.com##.transition-in.global-alert-banner
+linkedin.com###artdeco-global-alert-container
+
+! 2021-09-28 https://cadenaser.com
+cadenaser.com##.cnt-player-permanente
+
+! 2021-09-29 https://filament2print.com
+filament2print.com##.lgcookieslaw_banner
+
+! 2021-09-29 https://docs.openshift.com
+docs.openshift.com##*.truste_overlay
+docs.openshift.com##*.truste_box_overlay
+||consent-pref.trustarc.com^
+
+! 2021-09-29 https://www.huffingtonpost.es
+www.huffingtonpost.es##.yr-newsletter-toaster.desktop-only.newsletter-toaster
+
+! 2021-09-29 https://www.orm.es
+www.orm.es###alerta_cookie
+
+! 2021-09-29 https://myinvestor.es
+myinvestor.es###cookiesContainer
+
+! bloomberg
+||bwbx.io^
+||privacy-mgmt.com^
+
+! 2021-09-29 https://www.reddit.com
+www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
+
+! 2021-09-30 https://unix.stackexchange.com
+unix.stackexchange.com##.js-consent-banner
