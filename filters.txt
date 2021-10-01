@@ -131,3 +131,6 @@ www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
 
 ! 2021-09-30 https://unix.stackexchange.com
 unix.stackexchange.com##.js-consent-banner
+
+! 2021-10-01 https://www.xatakandroid.com
+xatakandroid.com,xatacaciencia.com###batchsdk-ui-alert-container
