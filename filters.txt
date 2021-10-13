@@ -55,6 +55,7 @@ ubuntu.com##.cookie-policy
 www.reddit.com##.m-animated.XPromoBlockingModal__content
 www.reddit.com##.m-animated.XPromoBlockingModal__overlay
 www.reddit.com##shreddit-experience-tree
+www.reddit.com##xpromo-untagged-content-blocking-modal
 
 ! https://mobile.twitter.com
 mobile.twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
@@ -134,3 +135,10 @@ unix.stackexchange.com##.js-consent-banner
 
 ! 2021-10-01 https://www.xatakandroid.com
 xatakandroid.com,xatacaciencia.com###batchsdk-ui-alert-container
+
+! 2021-10-06 https://theconversation.com
+theconversation.com##body > .slot > .promo
+
+! 2021-10-13 https://www.publico.es
+www.publico.es##.show-on-scroll.pb-sticky-bottom-unete.pb-sticky-bottom
+
