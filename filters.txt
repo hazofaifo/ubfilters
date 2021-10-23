@@ -35,6 +35,7 @@ antena3.com##body:style(overflow: auto !important;)
 filament2print.com##.lgcookieslaw_banner
 
 myinvestor.es###cookiesContainer
+myinvestor.es##.cookies
 
 www.publico.es##.show-on-scroll.pb-sticky-bottom-unete.pb-sticky-bottom
 www.publico.es##.pbfooter-main
