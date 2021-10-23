@@ -9,7 +9,7 @@ consent.google.com##.Qhg5gf
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !YouTube android
 m.youtube.com##.dialog-body
-m.youtube.com##.dialog-container                                                                                                                            
+m.youtube.com##.dialog-container
 m.youtube.com##.consent-bump-lightbox
 m.youtube.com##.upsell-dialog-lightbox
 m.youtube.com##.mandatory-consent-kickin.dialog
@@ -26,7 +26,7 @@ youtube.com###interstitial > .ytd-masthead.style-scope
 youtube.com##.ytd-consent-bump-lightbox
 youtube.com##.opened
 youtube.com###dialog
-||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image 
+||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 antena3.com##sibbo-cmp-layout
