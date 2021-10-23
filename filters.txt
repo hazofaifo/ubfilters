@@ -1,19 +1,21 @@
-! https://www.google.com
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Allow inoreader
+@@||inoreader.com^$document
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Remove Google and youtube banners
 www.google.*##^script:has-text(consentCookiePayload)
-! support.google.com
 support.google.com#@#body:style(overflow: auto !important;)
-! 2021-09-27 https://consent.google.com
 consent.google.com##.Qhg5gf
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !YouTube android
 m.youtube.com##.dialog-body
-m.youtube.com##.dialog-container
+m.youtube.com##.dialog-container                                                                                                                            
 m.youtube.com##.consent-bump-lightbox
 m.youtube.com##.upsell-dialog-lightbox
 m.youtube.com##.mandatory-consent-kickin.dialog
 m.youtube.com##body[modal-open-body]:style(position: static !important;)
 m.youtube.com##.consent-bump-v2-lightbox
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !YouTube pc
 youtube.com##+js(set, ytInitialPlayerResponse.auxiliaryUi.messageRenderers.upsellDialogRenderer.isVisible, false)
 youtube.com##+js(set, ytInitialData.overlay.upsellDialogRenderer.isVisible, false)
@@ -25,98 +27,61 @@ youtube.com##.ytd-consent-bump-lightbox
 youtube.com##.opened
 youtube.com###dialog
 ||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image 
-
-! inoreader
-@@||inoreader.com^$document
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-aliexpress.com##._3KrBP
-aliexpress.com##.drogue-poplayer-modal
-aliexpress.com##.coupon-poplayer-modal
-
-
-||sourcepoint.gizmodo.com/index.html?message_id=*&consentUUID=*preload_message=true$subdocument
-
-101lugaresincreibles.com##.moove-gdpr-info-bar-container
-
-www.espinof.com##.related-leaving-item
-
-www.elladodelmal.com##.singleton-element.cookie-choices-info
-
-ubuntu.com##.cookie-policy
-
-www.reddit.com##.m-animated.XPromoBlockingModal__content
-www.reddit.com##.m-animated.XPromoBlockingModal__overlay
-www.reddit.com##shreddit-experience-tree
-www.reddit.com##xpromo-untagged-content-blocking-modal
-www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
-
-
-mobile.twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
-mobile.twitter.com##div.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo4.css-1dbjc4n > div.r-12vffkv.css-1dbjc4n > .r-12vffkv.css-1dbjc4n > .css-1dbjc4n
-
-www.meneame.net##.top-advise-info.row
-
-www.morningstar.es###additionalInfoe
-
-@@||p.brid.tv/player/build/plugins/googleanalytics/1.0.0/brid.googleanalytics.min.js$script,domain=www.cabroworld.com
-
-lifehacker.com###sp_message_container_388535
-
-!!*##^script:has-text(spcloader)
-##body:style(overflow: auto !important;)
-
-! didomi
-elpais.com,cadenaser.com###didomi-host
-cadenaser.com###didomi-host
-motorpasionmoto.com###didomi-host
-elconfidencial.com###didomi-host
-lavanguardia.com###didomi-host
-
-! acceptationCMPWall
-elpais.com,cadenaser.com###acceptationCMPWall
-cadenaser.com###acceptationCMPWall
-
-cadenaser.com##body:style(overflow: auto !important;)
-cadenaser.com##.cnt-player-permanente
-
-motorpasionmoto.com##body:style(overflow: auto !important;)
-
-lavanguardia.com##body:style(overflow: auto !important;)
-
-!||privacy-center.org^$3p
-
-doodle.com###onetrust-consent-sdk
-
-marketplace.visualstudio.com###cookie-banner
-
-linkedin.com##.transition-in.global-alert-banner
-linkedin.com###artdeco-global-alert-container
+antena3.com##sibbo-cmp-layout
+antena3.com##body:style(overflow: auto !important;)
 
 filament2print.com##.lgcookieslaw_banner
 
-docs.openshift.com##*.truste_overlay
-docs.openshift.com##*.truste_box_overlay
-||consent-pref.trustarc.com^
-
-www.huffingtonpost.es##.yr-newsletter-toaster.desktop-only.newsletter-toaster
-
-www.orm.es###alerta_cookie
-
 myinvestor.es###cookiesContainer
-
-! bloomberg
-||bwbx.io^
-||privacy-mgmt.com^
-
-unix.stackexchange.com##.js-consent-banner
-
-xatakandroid.com,xatacaciencia.com###batchsdk-ui-alert-container
-
-theconversation.com##body > .slot > .promo
 
 www.publico.es##.show-on-scroll.pb-sticky-bottom-unete.pb-sticky-bottom
 www.publico.es##.pbfooter-main
-
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!aliexpress.com##._3KrBP
+!aliexpress.com##.drogue-poplayer-modal
+!aliexpress.com##.coupon-poplayer-modal
+!||sourcepoint.gizmodo.com/index.html?message_id=*&consentUUID=*preload_message=true$subdocument
+!101lugaresincreibles.com##.moove-gdpr-info-bar-container
+!www.espinof.com##.related-leaving-item
+!www.elladodelmal.com##.singleton-element.cookie-choices-info
+!ubuntu.com##.cookie-policy
+!www.reddit.com##.m-animated.XPromoBlockingModal__content
+!www.reddit.com##.m-animated.XPromoBlockingModal__overlay
+!www.reddit.com##shreddit-experience-tree
+!www.reddit.com##xpromo-untagged-content-blocking-modal
+!www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
+!mobile.twitter.com##.r-qo02w8.r-l5o3uw.css-1dbjc4n
+!mobile.twitter.com##div.r-zchlnj.r-1xcajam.r-12vffkv.r-1d2f490.r-1p0dtai.r-aqfbo4.css-1dbjc4n > div.r-12vffkv.css-1dbjc4n > .r-12vffkv.css-1dbjc4n > .css-1dbjc4n
+!www.meneame.net##.top-advise-info.row
+!www.morningstar.es###additionalInfoe
+!@@||p.brid.tv/player/build/plugins/googleanalytics/1.0.0/brid.googleanalytics.min.js$script,domain=www.cabroworld.com
+!lifehacker.com###sp_message_container_388535
+! didomi
+!elpais.com,cadenaser.com###didomi-host
+!cadenaser.com###didomi-host
+!motorpasionmoto.com###didomi-host
+!elconfidencial.com###didomi-host
+!lavanguardia.com###didomi-host
+! acceptationCMPWall
+!elpais.com,cadenaser.com###acceptationCMPWall
+!cadenaser.com###acceptationCMPWall
+!cadenaser.com##.cnt-player-permanente
+!lavanguardia.com,motorpasionmoto.com,cadenaser.com##body:style(overflow: auto !important;)
+!||privacy-center.org^$3p!doodle.com###onetrust-consent-sdk
+!marketplace.visualstudio.com###cookie-banner
+!linkedin.com##.transition-in.global-alert-banner
+!linkedin.com###artdeco-global-alert-container
+!docs.openshift.com##*.truste_overlay
+!docs.openshift.com##*.truste_box_overlay
+!||consent-pref.trustarc.com^
+!www.huffingtonpost.es##.yr-newsletter-toaster.desktop-only.newsletter-toaster
+!www.orm.es###alerta_cookie
+! bloomberg
+!||bwbx.io^
+!||privacy-mgmt.com^
+!unix.stackexchange.com##.js-consent-banner
+!xatakandroid.com,xatacaciencia.com###batchsdk-ui-alert-container
+!theconversation.com##body > .slot > .promo
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
