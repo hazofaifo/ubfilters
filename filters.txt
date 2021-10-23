@@ -29,8 +29,8 @@ youtube.com###dialog
 ||www.gstatic.com/youtube/img/promos/growth/dmod_si_horizontal_ver1_240x400.png$image
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-antena3.com##sibbo-cmp-layout
-antena3.com##body:style(overflow: auto !important;)
+antena3.com,ondacero.es##sibbo-cmp-layout
+antena3.com,ondacero.es##body:style(overflow: auto !important;)
 
 filament2print.com##.lgcookieslaw_banner
 
