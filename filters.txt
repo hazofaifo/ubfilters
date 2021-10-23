@@ -39,6 +39,9 @@ myinvestor.es##.cookies
 
 www.publico.es##.show-on-scroll.pb-sticky-bottom-unete.pb-sticky-bottom
 www.publico.es##.pbfooter-main
+
+www.adslzone.net##.cl-consent-bottom.cl-consent
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
