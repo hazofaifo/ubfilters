@@ -42,6 +42,11 @@ www.publico.es##.pbfooter-main
 
 www.adslzone.net##.cl-consent-bottom.cl-consent
 
+www.meneame.net##.top-advise-info.row
+
+@@||sdk.privacy-center.org/*/loader.js?target=www.espinof.com$script,domain=www.espinof.com
+@@||sdk.privacy-center.org/sdk.*.js$script,domain=www.espinof.com
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
