@@ -55,6 +55,9 @@ www.reddit.com##body:style(overflow: auto !important;)
 !www.reddit.com##xpromo-untagged-content-blocking-modal
 !www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
 
+@@||mab.mediaset.es/1.0.0/get?oid=bitban_api&eid=%2Fapi%2Fcms$xhr,domain=www.niusdiario.es
+@@||mab.mediaset.es/1.0.0/get?oid=bitban_api&eid=%2Fapi%2FgreenBox%3FcontentId$xhr,domain=www.niusdiario.espinof
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
