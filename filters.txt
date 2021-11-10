@@ -78,6 +78,8 @@ elespanol.com###didomi-host
 
 @@||cdn.ampproject.org/v0/$script,domain=amp.elmundo.es
 
+cnnespanol.cnn.com###onetrust-consent-sdk
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
