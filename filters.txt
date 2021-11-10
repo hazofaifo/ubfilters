@@ -69,6 +69,13 @@ fellowfunders.es##.fancybox-opened.fancybox-type-ajax.fancybox-mobile.fancybox-w
 fellowfunders.es##.fancybox-overlay-fixed.fancybox-overlay
 
 
+! didomi
+elespanol.com###didomi-host
+!cadenaser.com###didomi-host
+!motorpasionmoto.com###didomi-host
+!elconfidencial.com###didomi-host
+!lavanguardia.com###didomi-host
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
@@ -83,12 +90,6 @@ fellowfunders.es##.fancybox-overlay-fixed.fancybox-overlay
 !www.morningstar.es###additionalInfoe
 !@@||p.brid.tv/player/build/plugins/googleanalytics/1.0.0/brid.googleanalytics.min.js$script,domain=www.cabroworld.com
 !lifehacker.com###sp_message_container_388535
-! didomi
-!elpais.com,cadenaser.com###didomi-host
-!cadenaser.com###didomi-host
-!motorpasionmoto.com###didomi-host
-!elconfidencial.com###didomi-host
-!lavanguardia.com###didomi-host
 ! acceptationCMPWall
 !elpais.com,cadenaser.com###acceptationCMPWall
 !cadenaser.com###acceptationCMPWall
