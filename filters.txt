@@ -6,6 +6,8 @@
 www.google.*##^script:has-text(consentCookiePayload)
 support.google.com#@#body:style(overflow: auto !important;)
 consent.google.com##.Qhg5gf
+www.google.com##.fp-nh.gTMtLb
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !YouTube android
 m.youtube.com##.dialog-body
@@ -57,6 +59,9 @@ www.reddit.com##body:style(overflow: auto !important;)
 
 @@||mab.mediaset.es/1.0.0/get?oid=bitban_api&eid=%2Fapi%2Fcms$xhr,domain=www.niusdiario.es
 @@||mab.mediaset.es/1.0.0/get?oid=bitban_api&eid=%2Fapi%2FgreenBox%3FcontentId$xhr,domain=www.niusdiario.espinof
+
+es.ara.cat##.paywall
+es.ara.cat##body:style(overflow: auto !important;)
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
