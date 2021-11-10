@@ -76,6 +76,8 @@ elespanol.com###didomi-host
 !elconfidencial.com###didomi-host
 !lavanguardia.com###didomi-host
 
+@@||cdn.ampproject.org/v0/$script,domain=amp.elmundo.es
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
