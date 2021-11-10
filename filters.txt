@@ -49,12 +49,12 @@ www.meneame.net##.top-advise-info.row
 @@||sdk.privacy-center.org/*/loader.js?target=www.espinof.com$script,domain=www.espinof.com
 @@||sdk.privacy-center.org/sdk.*.js$script,domain=www.espinof.com
 
-www.reddit.com##shreddit-cookie-banner
-www.reddit.com##shreddit-experience-tree
-www.reddit.com##body:style(overflow: auto !important;)
+reddit.com##shreddit-cookie-banner
+reddit.com##shreddit-experience-tree
+reddit.com##body:style(overflow: auto !important;)
+reddit.com##xpromo-untagged-content-blocking-modal
 !www.reddit.com##.m-animated.XPromoBlockingModal__content
 !www.reddit.com##.m-animated.XPromoBlockingModal__overlay
-!www.reddit.com##xpromo-untagged-content-blocking-modal
 !www.reddit.com##._3q-XSJ2vokDQrvdG6mR__k > section
 
 @@||mab.mediaset.es/1.0.0/get?oid=bitban_api&eid=%2Fapi%2Fcms$xhr,domain=www.niusdiario.es
@@ -62,6 +62,10 @@ www.reddit.com##body:style(overflow: auto !important;)
 
 es.ara.cat##.paywall
 es.ara.cat##body:style(overflow: auto !important;)
+
+fellowfunders.es##.fancybox-opened.fancybox-type-ajax.fancybox-mobile.fancybox-wrap
+fellowfunders.es##.fancybox-overlay-fixed.fancybox-overlay
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
