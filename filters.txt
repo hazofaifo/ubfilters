@@ -80,6 +80,8 @@ elespanol.com###didomi-host
 
 cnnespanol.cnn.com###onetrust-consent-sdk
 
+www.eldiario.es##.header-ad.col-12
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !aliexpress.com##._3KrBP
 !aliexpress.com##.drogue-poplayer-modal
