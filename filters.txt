@@ -48,6 +48,8 @@ www.meneame.net##.top-advise-info.row
 
 @@||sdk.privacy-center.org/*/loader.js?target=www.espinof.com$script,domain=www.espinof.com
 @@||sdk.privacy-center.org/sdk.*.js$script,domain=www.espinof.com
+@@||sdk.privacy-center.org/*/loader.js?target=www.xatakandroid.com$script,domain=www.xatakandroid.com
+@@||sdk.privacy-center.org/sdk.*.js$script,domain=www.xatakandroid.com
 
 reddit.com##shreddit-cookie-banner
 reddit.com##shreddit-experience-tree
