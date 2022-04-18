@@ -6,7 +6,7 @@
 www.google.*##^script:has-text(consentCookiePayload)
 support.google.com#@#body:style(overflow: auto !important;)
 consent.google.com##.Qhg5gf
-www.google.com##.fp-nh.gTMtLb
+!www.google.com##.fp-nh.gTMtLb
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !YouTube android
